@@ -1,2 +1,2 @@
-# Oasis-Infobyte-Internship-
+# Oasis-Infobyte-Internship
 Web Development and Design Internship Projects
