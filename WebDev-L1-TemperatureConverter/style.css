@@ -1,0 +1,102 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+h1 {
+    color: #243b55;
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Converter Area */
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and Select */
+input,
+select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus {
+    border-color: #2878d0;
+    box-shadow: 0 0 5px rgba(40, 120, 208, 0.3);
+}
+
+/* Convert Button */
+button {
+    padding: 14px;
+    background: #2878d0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #185da8;
+}
+
+/* Result */
+#result {
+    color: #243b55;
+    font-size: 20px;
+    margin-top: 10px;
+    overflow-wrap: anywhere;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
